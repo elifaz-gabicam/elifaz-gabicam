@@ -74,43 +74,4 @@
             <p>Modelo: 911 GT3</p>
             <p>Preço: R$ 150.000</p>
             <p>Copie o link a seguir e cole em seu navegador para visualizar a imagem do veículo.</p>
-            <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shiftcar.com.br%2Fcarros%2Fusado%2Fcuritiba%2Fporsche%2F911%2Fgt3-4.0-500cv-%2528991%2529-2022%2Fid-138640&psig=AOvVaw3D4HSu4IADrl5aWzKOkCEK&ust=1722552388565000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjn5fSt0ocDFQAAAAAdAAAAABAE" target="_blank">Imagem Porsche</a></p>
-            <input type="number" id="payment-4" placeholder="Digite o valor do pagamento via Pix: R$">
-            <button onclick="makePayment(4)">Efetuar Pagamento</button>
-            <p id="payment-status-4"></p>
-        </div>
-
-        <div id="car-5" class="car-details">
-            <h2>BMW</h2>
-            <p>Modelo: M5</p>
-            <p>Preço: R$ 350.000</p>
-            <p>Copie o link a seguir e cole em seu navegador para visualizar a imagem do veículo.</p>
-            <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmotor1.uol.com.br%2Fnews%2F502962%2Fnovo-bmw-m5-competition-preco%2F&psig=AOvVaw1jtw-aXTKGQDPIS3rJ3EpL&ust=1722552451631000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOj7rouu0ocDFQAAAAAdAAAAABAE" target="_blank">Imagem BMW</a></p>
-            <input type="number" id="payment-5" placeholder="Digite o valor do pagamento via Pix: R$">
-            <button onclick="makePayment(5)">Efetuar Pagamento</button>
-            <p id="payment-status-5"></p>
-        </div>
-    </div>
-
-    <script>
-        function showCarDetails() {
-            // Oculta todos os detalhes dos carros
-            let carDetails = document.querySelectorAll('.car-details');
-            carDetails.forEach(detail => detail.style.display = 'none');
-
-            // Obtém o valor selecionado
-            let selectedCar = document.getElementById('car-select').value;
-            if (selectedCar) {
-                // Mostra os detalhes do carro selecionado
-                document.getElementById('car-' + selectedCar).style.display = 'block';
-            }
-        }
-
-        function makePayment(carNumber) {
-            let price = 0;
-            switch (carNumber) {
-                case 1: price = 50000000; break;
-                case 2: price = 300000000; break;
-                case 3: price = 450000; break;
-                case 4: price = 150000; break;
-                case 5: price = 350000; break;
+            <p><a href="https://w
